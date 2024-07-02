@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')  // Docker Hub credentials
+        DOCKERHUB_CREDENTIALS = credentials('Docker')  // Docker Hub credentials
         IMAGE_NAME = "saravana1418/python-flask-rest-api-project"                         // Image name for Trivy scan
     }
  
