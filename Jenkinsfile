@@ -18,7 +18,7 @@ pipeline {
        stage('Trivy Scan') {
            steps {
                script {
-                 sh "sudo trivy image $IMAGE_NAME"
+                 sh "sudo trivy --insecure image $IMAGE_NAME"
                }
            }   
        }
