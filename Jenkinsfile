@@ -3,7 +3,7 @@ pipeline {
  
    environment {
        DOCKERHUB_CREDENTIALS = credentials('Docker')  // Docker Hub credentials
-       IMAGE_NAME = "saravana1418/python-flask-rest-api-project"                         // Image name for Trivy scan
+       IMAGE_NAME = "saravana1418/atomui"                         // Image name for Trivy scan
    }
 
    stages {
